@@ -36,7 +36,7 @@
               <!-- First image on the right side, above the article -->
 
               <h3>Modul de acționare</h3>
-              <p>
+              <p class="description text-left">
                 Se va dezinfecta orice obiect care vine în contact cu omul
                 bolnav: mobilier de lemn, plastic sau fier, sistemul de
                 încălzire și iluminare ( radiatoare, becuri, globuri) ,

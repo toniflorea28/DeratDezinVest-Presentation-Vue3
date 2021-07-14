@@ -43,7 +43,7 @@
                 style="background-image: url('img/team-2.jpg')"
               >
                 <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary">
+                <p class="blockquote blockquote-primary description">
                   "Medicul viitorului nu va da niciun medicament, dar își va
                   instrui pacienții în îngrijirea corpului, dietă și cel mai
                   important, prevenirea bolilor."
@@ -65,7 +65,7 @@
                 style="background-image: url('img/team-1.jpg')"
               ></div>
               <h3>De ce noi?</h3>
-              <p>
+              <p class="description">
                 De ce noi? Personalul calificat și experimentat precum și
                 produsele și echipamentele de ultimă generație folosite pentru
                 deratizare, dezinsecție și dezinfecție ne ajută să prestăm câtre
@@ -76,7 +76,7 @@
                 cabinete medicale, unități alimentare, clinici și spitale, etc.
               </p>
               <h3>La ce ajuta serviciile noastre?</h3>
-              <p>
+              <p class="description">
                 Dezinsectia este procedura care are ca şi rezultat eliminarea de
                 pe o suprafaţă sau un obiect a majorităţii microbilor sau
                 microorganismelor. Serviciile noastre elimină dăunători
@@ -88,8 +88,8 @@
                 dezinfecție si deratizare.
 
                 <br />
-                <a href="#"
-                  ><n-button type="primary">Mai multe detalii</n-button></a
+                <router-link to="/about"
+                  ><n-button type="primary">Mai multe detalii</n-button></router-link
                 >
               </p>
             </div>

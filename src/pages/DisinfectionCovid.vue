@@ -42,12 +42,12 @@
               <!-- First image on the right side, above the article -->
 
               <h3>Modul de acționare</h3>
-              <p>
+              <p class="description text-left">
                 Pulverizarea cu ajutorul pompelor de joasa presiune (vermorele)
                 sau pompelor de mare presiune (atomizoare), iar la aplicare se
                 obtine o singura picatura cu dimensiunea de 300 μ diametru;
               </p>
-              <p>
+              <p class="description text-left">
                 Nebulizarea (dupa caz, termonebulizarea) nebulizare cu ajutorul
                 nebulizatoarelor ULV (Ultra Low Volume) - generatoare de ceata
                 rece, la aplicare se obtin 1000 picaturi de 30 μ diametru;

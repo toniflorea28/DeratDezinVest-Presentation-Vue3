@@ -48,7 +48,7 @@
               <!-- First image on the right side, above the article -->
 
               <h3>Modul de acționare</h3>
-              <p>
+              <p class="description text-left">
                 DERATDEZIN VEST oferă soluții complexe de dezinsecție,
                 indiferent de profilul dumneavoastră de activitate. În prezent
                 avem în derulare numeroase contracte de prestări servicii prin

@@ -33,7 +33,7 @@
               <!-- First image on the right side, above the article -->
 
               <h3>Modul de acționare</h3>
-              <p>
+              <p class="description text-left">
                 Ca și în cazul dezinsecției se efectuează profilactic ( de
                 prevenire) și curativă ( de eliminare). În țara noastră se poate
                 întâlni un număr mare de rozătoare, grupate în șase familii, cu
