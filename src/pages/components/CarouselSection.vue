@@ -1,6 +1,6 @@
 <template>
   <div  id="carousel">
-    <div class="container">
+    <div class="container hide_on_mobile">
       <div class="title">
         <h4>Carousel</h4>
       </div>
@@ -41,4 +41,13 @@ export default {
   }
 };
 </script>
-<style></style>
+<style>
+@media screen and (max-width: 600px) {
+  .hide_on_mobile {
+    visibility: hidden;
+    clear: both;
+    float: left;
+    display: none;
+  }
+}
+</style>

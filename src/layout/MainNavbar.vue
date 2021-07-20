@@ -42,10 +42,17 @@
 
 
 
-      <li class="nav-item">
+      <!-- <li class="nav-item">
         <router-link v-popover:popover1 class="navbar-brand pl-4  text-white" to="/galerie">
         <i class="now-ui-icons design_image"></i>
            &nbsp; Galerie foto
+        </router-link>
+      </li> -->
+
+      <li class="nav-item">
+        <router-link v-popover:popover1 class="navbar-brand pl-4  text-white" to="/offer">
+        <i class="now-ui-icons files_paper"></i>
+           &nbsp; Oferta
         </router-link>
       </li>
 

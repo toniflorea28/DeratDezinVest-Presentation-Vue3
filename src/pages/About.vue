@@ -28,7 +28,7 @@
           combatere a factorilor de disconfort: rozătoare, insecte, microbi,
           viruşi, etc. prin servicii de deratizare, dezinsecţie şi dezinfecţie.
         </h5>
-        <carousel-section></carousel-section>
+        <!-- <carousel-section></carousel-section> -->
         <h5 class="description">
           Firma a fost inființată în anul 2015, conducerea fiind asigurată de un
           singur asociat având o experiență în domeniul DDD de peste 10 ani, la
@@ -66,13 +66,13 @@
   </div>
 </template>
 <script>
-import CarouselSection from './components/CarouselSection.vue';
+// import CarouselSection from './components/CarouselSection.vue';
 
 export default {
   name: "profile",
   bodyClass: "profile-page",
   components: {
-    CarouselSection
+    // CarouselSection
 
   },
 };

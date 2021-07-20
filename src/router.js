@@ -12,6 +12,7 @@ import About from './pages/About.vue';
 import DisinfectionCovid from './pages/DisinfectionCovid.vue';
 import PestControlRats from './pages/PestControlRats.vue';
 import PestControlBugs from './pages/PestControlBugs.vue';
+import Offer from './pages/Offer.vue';
 
 
 Vue.use(Router);
@@ -86,6 +87,15 @@ export default new Router({
       path: '/galerie',
       name: 'gallery',
       components: { default: Gallery, header: MainNavbar, footer: MainFooter },
+      props: {
+        header: { colorOnScroll: 400 },
+        footer: { backgroundColor: 'black' }
+      }
+    },
+    {
+      path: '/offer',
+      name: 'offer',
+      components: { default: Offer, header: MainNavbar, footer: MainFooter },
       props: {
         header: { colorOnScroll: 400 },
         footer: { backgroundColor: 'black' }
