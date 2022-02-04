@@ -114,12 +114,19 @@ export default {
   },
   methods: {
       sendEmail() {
-          setTimeout(() => {
-              this.messageStatus = true;
-              this.phoneNumber = null;
-              this.companyName = null;
-              this.personName = null;
-          }, 700);
+        const requestOptions = {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ name: this.personName, phone: this.phoneNumber, company: this.companyName })
+      };
+      fetch("https://app.deratdezin-vest.ro/api/sendMail", requestOptions);
+
+      setTimeout(() => {
+          this.messageStatus = true;
+          this.phoneNumber = null;
+          this.companyName = null;
+          this.personName = null;
+        }, 700);
       }
   },
   data() {
