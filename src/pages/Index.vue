@@ -120,7 +120,7 @@
                 <i class="fas fa-map mr-1"></i> Adresa:
               </div>
               <div class="col-lg-8 text-left">
-                <b>Com. Sanmihaiu Roman, Nr. 106e, Jud.Timis</b>
+                <b>Str. Constructorilor nr.4, Săcălaz, Jud.Timis</b>
               </div>
             </div>
           </div>
