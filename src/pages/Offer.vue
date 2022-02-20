@@ -25,7 +25,7 @@
         <h3 class="title">Ofertă</h3>
         <h5 class="description">
           Ne poți cere o ofertă completând formularul de mai jos, iar noi te vom apela în cel mai scurt timp! De asemenea ne poți contacta direct apelând
-          unul din numerele de telefon menționate:
+          unul din numerele de telefon menționate sau la adresa de email deratdezin.vest@yahoo.com:
         </h5>
 
         <div class="container">
@@ -82,10 +82,17 @@
                 <i class="fas fa-phone mr-1"></i> Telefon:
               </div>
               <div class="col-lg-8 text-left">
-                <b>0256-363-710, 0757-527-639</b>
+                <b>0757-527-639</b>
               </div>
             </div>
-
+            <div class="row">
+              <div class="col-lg-4">
+                <i class="fas fa-email mr-1"></i> Email:
+              </div>
+              <div class="col-lg-8 text-left">
+                <b>deratdezin.vest@yahoo.com</b>
+              </div>
+            </div>
             <div class="row">
               <div class="col-lg-4">
                 <i class="fas fa-map mr-1"></i> Adresa:

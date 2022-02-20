@@ -60,7 +60,15 @@
           Scopul nostru este de a continua să oferim cele mai bune servicii de:
           Deratizare, Dezinsecție, și Dezinfecție.
         </h5>
-
+        <h5 class="description">
+          Totodată firma noastră are implementat şi menţine un Sistem de Management 
+          al Calităţii în conformitate cu cerinţele standardului SR EN ISO 9001:2015, 
+          un Sistem de Management de Mediu în conformitate cu cerinţele standardului 
+          SR EN ISO 14001:2015 și  un Sistem de Management al Sănătății și Securității
+           Ocupaționale SR ISO 45001:2018 deoarece calitatea serviciului nu stă doar în 
+           ceea ce utilizează furnizorul ci în ceea ce primeşte clientul şi pentru care 
+           acesta este dispus să plătească.
+        </h5>
       </div>
     </div>
   </div>

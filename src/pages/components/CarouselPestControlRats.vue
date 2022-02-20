@@ -11,11 +11,11 @@
               <div class="carousel-caption d-none d-md-block">
               </div>
             </el-carousel-item>
-            <el-carousel-item>
+            <!-- <el-carousel-item>
               <img class="d-block" src="img/deratizare_2.jpg" alt="Second slide" />
               <div class="carousel-caption d-none d-md-block">
               </div>
-            </el-carousel-item>
+            </el-carousel-item> -->
           </el-carousel>
         </div>
       </div>

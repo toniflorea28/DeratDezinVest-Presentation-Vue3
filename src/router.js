@@ -13,9 +13,10 @@ import DisinfectionCovid from './pages/DisinfectionCovid.vue';
 import PestControlRats from './pages/PestControlRats.vue';
 import PestControlBugs from './pages/PestControlBugs.vue';
 import Offer from './pages/Offer.vue';
-
+import VueMeta from 'vue-meta';
 
 Vue.use(Router);
+Vue.use(VueMeta);
 
 export default new Router({
   linkExactActiveClass: 'active',

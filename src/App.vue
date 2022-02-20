@@ -8,5 +8,18 @@
   </div>
 </template>
 <script>
-export default {};
+export default {
+  name: 'App',
+  metaInfo: {
+    title: 'DeratDezin Vest',
+    htmlAttrs: {
+      lang: 'en-US'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Servicii profesionale de dezinsectie si deratizare Timisoara, DeratDezin Vest.' },
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+    ]
+  }
+}
 </script>

@@ -77,10 +77,7 @@
               </p>
               <h3>La ce ajuta serviciile noastre?</h3>
               <p class="description">
-                Dezinsectia este procedura care are ca şi rezultat eliminarea de
-                pe o suprafaţă sau un obiect a majorităţii microbilor sau
-                microorganismelor. Serviciile noastre elimină dăunători
-                urmatorii dăunatori: bacterii-Salmonella enteridis,
+                 Serviciile noastre elimină urmatorii dăunatori: bacterii-Salmonella enteridis,
                 Staphylococcus aureus, Escherichia coli, Streptococcus faecalis,
                 etc., fungii(ciuperci)-Candida albicans, Aspergillus fumigatus,
                 etc., viruşii-Hepatita B, HIV, Herpes simplex, Poliovirus tip 1.
@@ -111,7 +108,7 @@
                 <i class="fas fa-phone mr-1"></i> Telefon:
               </div>
               <div class="col-lg-8 text-left">
-                <b>0256-363-710, 0757-527-639</b>
+                <b>0757-527-639</b>
               </div>
             </div>
 
