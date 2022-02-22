@@ -3,7 +3,7 @@
     <div class="page-header clear-filter" filter-color="orange">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/bg5.jpg')"
+        style="background-image: url('img/hero-image-6.jpg')"
       >
       </parallax>
       <div class="container">
@@ -69,6 +69,12 @@
            ceea ce utilizează furnizorul ci în ceea ce primeşte clientul şi pentru care 
            acesta este dispus să plătească.
         </h5>
+        <h5 style="display: flex; align-content: center; justify-content: space-evenly;">
+          <a :href="`${publicPath}img/files/dsv_sacalaz.pdf`" download>DSV Sacalaz</a>
+          <a :href="`${publicPath}img/files/iso_9001.pdf`" download>ISO 9001</a>
+          <a :href="`${publicPath}img/files/iso_14001.pdf`" download>ISO 14001</a>
+          <a :href="`${publicPath}img/files/iso_45001.pdf`" download>ISO 45001</a>
+        </h5>
       </div>
     </div>
   </div>
@@ -83,6 +89,11 @@ export default {
     // CarouselSection
 
   },
+  data () {
+  return {
+  publicPath: process.env.BASE_URL
+  }
+}
 };
 </script>
 <style></style>

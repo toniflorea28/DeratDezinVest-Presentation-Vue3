@@ -3,28 +3,35 @@
     <div class="page-header page-header-small">
       <parallax
         class="page-header-image"
-        style="background-image: url('img/hero-image-4.jpg')"
+        style="background-image: url('img/hero-image-6.jpg')"
       >
       </parallax>
-      <div class="content-center">
+      <!-- <div class="content-center">
         <div class="container">
-          <h1 class="title">Traieste o viața mai curată</h1>
+          <h1 class="title" style="text-shadow: 0 0 3px red, 0 0 5px red; font-size: 4rem"><span style="color:red">D</span>erat<span style="color:red">D</span>ezin <span style="color:red">V</span>est</h1>
           <div class="text-center">
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="https://www.facebook.com/DeratDezinVest" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-facebook-square"></i>
             </a>
-            <a href="#pablo" class="btn btn-primary btn-icon btn-round">
+            <a href="https://www.google.com/maps/dir//deratdezinvest/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x474543656b77f179:0x8141eaa72b6f396a?sa=X&ved=2ahUKEwjJw_vP_5L2AhX_SfEDHfOtChAQ9Rd6BAgyEAU" class="btn btn-primary btn-icon btn-round">
               <i class="fab fa-google"></i>
             </a>
           </div>
         </div>
-      </div>
+      </div> -->
     </div>
     <div class="section section-about-us">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <img src="../../public/img/logo.jpg" alt="" style="max-width: 20%">
+            <div class="text-center">
+            <a href="https://www.facebook.com/DeratDezinVest" class="btn btn-primary btn-icon btn-round">
+              <i class="fab fa-facebook-square"></i>
+            </a>
+            <a href="https://www.google.com/maps/dir//deratdezinvest/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x474543656b77f179:0x8141eaa72b6f396a?sa=X&ved=2ahUKEwjJw_vP_5L2AhX_SfEDHfOtChAQ9Rd6BAgyEAU" class="btn btn-primary btn-icon btn-round">
+              <i class="fab fa-google"></i>
+            </a>
+          </div>
             <h2 class="title">Cine suntem noi?</h2>
             <h5 class="description">
               Suntem o echipă de profesioniști care e acolo unde ai nevoie de
@@ -42,15 +49,14 @@
                 class="image-container image-left"
                 style="background-image: url('img/team-2.jpg')"
               >
-                <!-- First image on the left side -->
-                <p class="blockquote blockquote-primary description">
+                <!-- <p class="blockquote blockquote-primary description">
                   "Medicul viitorului nu va da niciun medicament, dar își va
                   instrui pacienții în îngrijirea corpului, dietă și cel mai
                   important, prevenirea bolilor."
                   <br />
                   <br />
                   <small>-Thomas Edison</small>
-                </p>
+                </p> -->
               </div>
               <!-- Second image on the left side of the article -->
               <div
