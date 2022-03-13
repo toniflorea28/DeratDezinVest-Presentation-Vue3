@@ -74,6 +74,7 @@
           <a :href="`${publicPath}img/files/iso_9001.pdf`" download>ISO 9001</a>
           <a :href="`${publicPath}img/files/iso_14001.pdf`" download>ISO 14001</a>
           <a :href="`${publicPath}img/files/iso_45001.pdf`" download>ISO 45001</a>
+          <a :href="`${publicPath}img/files/dsp_certificare.pdf`" download>Certificare DSP</a>
         </h5>
       </div>
     </div>
