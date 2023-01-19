@@ -25,7 +25,7 @@
         </ul>
       </nav>
       <div class="copyright">
-        &copy; {{ year }}, DeratDezin Vest SRL. Website designed & coded by Flotek Software Solutions, Timișoara
+        &copy; {{ year }}, DeratDezin Vest<sup>&reg;</sup> SRL
       </div>
     </div>
   </footer>

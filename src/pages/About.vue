@@ -24,7 +24,7 @@
         </div>
         <h3 class="title">Despre noi</h3>
         <h5 class="description">
-          SC DERATDEZIN VEST S.R.L. este o firmă specializată în operaţiuni de
+          SC DERATDEZIN VEST <sup>&reg;</sup> S.R.L. este o firmă specializată în operaţiuni de
           combatere a factorilor de disconfort: rozătoare, insecte, microbi,
           viruşi, etc. prin servicii de deratizare, dezinsecţie şi dezinfecţie.
         </h5>
@@ -75,6 +75,7 @@
           <a :href="`${publicPath}img/files/iso_14001.pdf`" download>ISO 14001</a>
           <a :href="`${publicPath}img/files/iso_45001.pdf`" download>ISO 45001</a>
           <a :href="`${publicPath}img/files/dsp_certificare.pdf`" download>Certificare DSP</a>
+          <a :href="`${publicPath}img/files/osim.pdf`" download>Certificare OSIM</a>
         </h5>
       </div>
     </div>

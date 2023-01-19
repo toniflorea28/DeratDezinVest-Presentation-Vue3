@@ -8,7 +8,7 @@
   >
     <template>
       <router-link v-popover:popover1 class="navbar-brand" to="/">
-        DeratDezin Vest
+        DeratDezin Vest <sup>&reg;</sup>
       </router-link>
     </template>
     <template slot="navbar-menu">
