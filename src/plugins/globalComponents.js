@@ -1,4 +1,5 @@
 import { Parallax } from '../components';
+import {createGtm} from "vue-gtm";
 /**
  * You can register global components here
  */
@@ -6,6 +7,7 @@ import { Parallax } from '../components';
 const globalComponents = {
   install(Vue) {
     Vue.component(Parallax.name, Parallax);
+    Vue.component(createGtm, createGtm);
   }
 };
 

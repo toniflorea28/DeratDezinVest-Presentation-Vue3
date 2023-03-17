@@ -40,7 +40,7 @@ export default new Router({
       }
     },
     {
-      path: '/about',
+      path: '/despre-noi',
       name: 'about',
       components: { default: About, header: MainNavbar, footer: MainFooter },
       props: {
@@ -49,7 +49,7 @@ export default new Router({
       }
     },
     {
-      path: '/dezinfectie-covid',
+      path: '/dezinfectie-covid-timisoara',
       name: 'covid',
       components: { default: DisinfectionCovid, header: MainNavbar, footer: MainFooter },
       props: {
@@ -58,7 +58,7 @@ export default new Router({
       }
     },
     {
-      path: '/deratizare',
+      path: '/deratizare-timisoara',
       name: 'deratizare',
       components: { default: PestControlRats, header: MainNavbar, footer: MainFooter },
       props: {
@@ -67,7 +67,7 @@ export default new Router({
       }
     },
     {
-      path: '/dezinsectie',
+      path: '/dezinsectie-timisoara',
       name: 'dezinsectie',
       components: { default: PestControlBugs, header: MainNavbar, footer: MainFooter },
       props: {
@@ -76,7 +76,7 @@ export default new Router({
       }
     },
     {
-      path: '/dezinfectie',
+      path: '/dezinfectie-timisoara',
       name: 'desinfection',
       components: { default: Disinfection, header: MainNavbar, footer: MainFooter },
       props: {
@@ -94,7 +94,7 @@ export default new Router({
       }
     },
     {
-      path: '/offer',
+      path: '/oferta',
       name: 'offer',
       components: { default: Offer, header: MainNavbar, footer: MainFooter },
       props: {

@@ -32,12 +32,9 @@
               <i class="fab fa-google"></i>
             </a>
           </div>
-            <h2 class="title">Cine suntem noi?</h2>
+            <h2 class="title">Firmă Deratizare Timisoara – Servicii DDD Timisoara</h2>
             <h5 class="description">
-              Suntem o echipă de profesioniști care e acolo unde ai nevoie de
-              ea. Respectăm clienții, activitatea și executăm tratamentele cu
-              maximum de profesionalism. Oferim servicii profesionale si
-              complete la cele mai bune preturi.
+              Ai nevoie de o firmă deratizare, dezinsecție și dezinfecție în Timișoara, Lugoj, Recaș sau alte orase din Timiș? Contactează-ne și te scăpam rapid de daunători!
             </h5>
           </div>
         </div>
@@ -70,18 +67,11 @@
                 class="image-container image-right"
                 style="background-image: url('img/team-1.jpg')"
               ></div>
-              <h3>De ce noi?</h3>
+              <h3>Firmă Deratizare Timișoara și județul Timiș</h3>
               <p class="description">
-                De ce noi? Personalul calificat și experimentat precum și
-                produsele și echipamentele de ultimă generație folosite pentru
-                deratizare, dezinsecție și dezinfecție ne ajută să prestăm câtre
-                clienții noștri siguranța serviciilor de calitate. De asemenea
-                ne putem oferii serviciile pentru o gamă largă de clienți din
-                domeniul public sau privat, începând de la consumatorul casnic,
-                până la spații comerciale și birouri, hale, restaurante, școli,
-                cabinete medicale, unități alimentare, clinici și spitale, etc.
+                Suntem o echipă de profesioniști care e acolo unde ai nevoie de ea. Respectăm clienții, activitatea și executăm tratamentele cu maximum de profesionalism. Oferim servicii profesionale si complete de dezinsecție, dezinfecție și deratizare în Timișoara și județul Timiș.
               </p>
-              <h3>La ce ajuta serviciile noastre?</h3>
+              <h3>Cum te ajută serviciile noastre?</h3>
               <p class="description">
                  Serviciile noastre elimină urmatorii dăunatori: bacterii-Salmonella enteridis,
                 Staphylococcus aureus, Escherichia coli, Streptococcus faecalis,
@@ -98,6 +88,28 @@
             </div>
           </div>
         </div>
+      </div>
+    </div>
+
+    <div class="section">
+      <div class="container">
+        <h5>Atuurile noastre</h5>
+        <ul>
+          <li>cunoaștem clasificarea și comportamentul tuturor tipurilor de dăunători</li>
+          <li>asigurăm intervenții rapide de dezinsectie, dezinfecție și deratizare în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova și alte județe din țară, la cerere</li>
+          <li>asigurăm întotdeauna medii sigure, sănătoase și fară dăunători</li>
+          <li>oferim tratamente complete în interiorul și exteriorul spatiilor rezidențiale, comerciale și ale instituțiilor publice</li>
+          <li>oferim contracte avantajoase pe care le respectăm cu promptitudine</li>
+          <li>oferim garanția tuturor lucrărilor efectuate</li>
+        </ul>
+
+
+        <h5 class="mt-5">De ce sa alegi DeratDezin Vest?</h5>
+        Personalul calificat și experimentat precum și produsele și echipamentele de ultimă generație utilizate pentru dezinsecție, dezinfecție și  și ne ajută să prestăm câtre clienții noștri servicii DDD de calitate în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova și alte județe din țară, întotdeauna la termenul stabilit.
+       <br> <br>Punem la dispoziție serviciile noastre pentru o gamă largă de clienți din domeniul public sau privat, începând de la consumatorul casnic, până la spații comerciale și birouri, hale, restaurante, școli, cabinete medicale, unități alimentare, clinici și spitale sau alte tipuri de spații.
+        <br> <br>Cauți o firmă deratizare în Timișoara și județul Timiș? Ești în locul potrivit, DeratDezin te va scăpa de rozătoare, insect și viruși. Contactează-ne și venim rapid în sprijinul tău.
+
+
       </div>
     </div>
 
@@ -142,6 +154,17 @@ export default {
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput,
+  },
+  metaInfo: {
+    title: 'Firmă Deratizare Timisoara – Servicii DDD Timisoara',
+    htmlAttrs: {
+      lang: 'ro-RO'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Servicii profesionale de dezinsectie si deratizare Timisoara, DeratDezin Vest.' },
+      { name: 'description', content: 'Ai nevoie de o firmă deratizare, dezinsecție și dezinfecție în Timișoara, Lugoj, Recaș sau alte orase din Timiș? Contactează-ne și te scăpam rapid de daunători!.' }
+    ]
   },
   data() {
     return {

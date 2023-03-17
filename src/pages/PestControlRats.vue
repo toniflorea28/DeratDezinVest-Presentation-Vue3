@@ -7,22 +7,24 @@
       >
       </parallax>
       <div class="container">
-        <h1 class="title">Deratizare</h1>
+        <h1 class="title">Deratizare Șobolani Timișoara</h1>
+        <p>Oferim servicii eficiente de deratizare atât pentru spații comerciale, cât și pentru spații rezidențiale sau industrial în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova.
+         Folosim cele mai noi tehnologii pentru exterminarea rozătoarelor și produse testate și eficiente, adaptate pentru fiecare intervenție în parte.
+        </p>
       </div>
     </div>
     <div class="section section-about-us">
       <div class="container">
         <div class="row">
           <div class="col-md-8 ml-auto mr-auto text-center">
-            <h2 class="title">Ce înseamna “deratizarea”?“</h2>
+            <h2 class="title"> Ce înseamna “deratizarea”?</h2>
             <h5 class="description">
-              Deratizarea reprezintă un complex de măsuri aplicate de toți
-              factorii interesați pentru reducerea substanțiala a populației de
-              șoareci și șobolani și menținerii acestora la un nivel numeric
-              redus.
+              Deratizarea reprezintă un complex de măsuri aplicate de toți factorii interesați pentru reducerea substanțială a populației de șoareci și șobolani și menținerii acestora la un nivel numeric redus.
+             <br><br> Serviciile de deratizare sunt necesare rapid deoarece rozătoarele au o capacitate mare de reproducere. Pentru a evita o infestare de proporții și greu de gestionat este cel mai bine să se acționeze de la primele semne ale prezenței rozătoarelor. Alege serviciile DeratDezin Vest de deratizare în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova.
             </h5>
           </div>
         </div>
+
         <carousel-pest-control-rats></carousel-pest-control-rats>
 
         <div class="separator separator-primary"></div>
@@ -60,6 +62,17 @@ export default {
   components: {
     CarouselPestControlRats,
   },
+  metaInfo: {
+    title: 'Deratizare Timișoara – Deratizare Șobolani Timișoarat',
+    htmlAttrs: {
+      lang: 'ro-RO'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Servicii profesionale de dezinsectie si deratizare Timisoara, DeratDezin Vest.' },
+      { name: 'description', content: 'Oferim servicii de deratizare în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova. Te scapăm rapid de dăunători.' }
+    ]
+  }
 };
 </script>
 <style></style>

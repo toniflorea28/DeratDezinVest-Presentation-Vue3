@@ -7,7 +7,8 @@
       >
       </parallax>
       <div class="container">
-        <h1 class="title">Dezinfectie generală</h1>
+        <h1 class="title">Dezinfecție Timișoara și județul Timiș</h1>
+        <p>Oferim servicii profesionale de dezinfecție în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova  prin intermediului personalului calificat, al echipamentelor de ultima generație și substanțe avizate de Ministerul Sănătății.</p>
       </div>
     </div>
     <div class="section section-about-us">
@@ -66,6 +67,17 @@ export default {
   components: {
     CarouselDisinfection,
   },
+  metaInfo: {
+    title: 'Dezinfecție Timișoara – Dezinfecție Clădiri Timișoara',
+    htmlAttrs: {
+      lang: 'ro-RO'
+    },
+    meta: [
+      { charset: 'utf-8' },
+      { name: 'description', content: 'Servicii profesionale de dezinsectie si deratizare Timisoara, DeratDezin Vest.' },
+      { name: 'description', content: 'Oferim servicii de dezinfecție în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova. Te scapăm rapid de dăunători.' }
+    ]
+  }
 };
 </script>
 <style></style>

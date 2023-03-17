@@ -18,7 +18,8 @@ export default {
     meta: [
       { charset: 'utf-8' },
       { name: 'description', content: 'Servicii profesionale de dezinsectie si deratizare Timisoara, DeratDezin Vest.' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' }
+      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
+      { name: 'google-site-verification', content: 'dOHucl-GUt25DrasYvbHoocIhcGfoRSfw9_KIy7SBV0' }
     ]
   }
 }
