@@ -6,19 +6,6 @@
         style="background-image: url('img/hero-image-6.jpg')"
       >
       </parallax>
-      <!-- <div class="content-center">
-        <div class="container">
-          <h1 class="title" style="text-shadow: 0 0 3px red, 0 0 5px red; font-size: 4rem"><span style="color:red">D</span>erat<span style="color:red">D</span>ezin <span style="color:red">V</span>est</h1>
-          <div class="text-center">
-            <a href="https://www.facebook.com/DeratDezinVest" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-facebook-square"></i>
-            </a>
-            <a href="https://www.google.com/maps/dir//deratdezinvest/data=!4m6!4m5!1m1!4e2!1m2!1m1!1s0x474543656b77f179:0x8141eaa72b6f396a?sa=X&ved=2ahUKEwjJw_vP_5L2AhX_SfEDHfOtChAQ9Rd6BAgyEAU" class="btn btn-primary btn-icon btn-round">
-              <i class="fab fa-google"></i>
-            </a>
-          </div>
-        </div>
-      </div> -->
     </div>
     <div class="section section-about-us">
       <div class="container">
@@ -46,14 +33,6 @@
                 class="image-container image-left"
                 style="background-image: url('img/team-2.jpg')"
               >
-                <!-- <p class="blockquote blockquote-primary description">
-                  "Medicul viitorului nu va da niciun medicament, dar își va
-                  instrui pacienții în îngrijirea corpului, dietă și cel mai
-                  important, prevenirea bolilor."
-                  <br />
-                  <br />
-                  <small>-Thomas Edison</small>
-                </p> -->
               </div>
               <!-- Second image on the left side of the article -->
               <div
@@ -93,6 +72,7 @@
 
     <div class="section">
       <div class="container">
+        <p class="description">Suntem o echipă de profesioniști care e acolo unde ai nevoie de ea. Respectăm clienții, activitatea și executăm tratamentele cu maximum de profesionalism. Oferim servicii profesionale si complete de dezinsecție, dezinfecție și deratizare în Timișoara și județul Timiș.</p>
         <h5>Atuurile noastre</h5>
         <ul>
           <li>cunoaștem clasificarea și comportamentul tuturor tipurilor de dăunători</li>
@@ -105,14 +85,15 @@
 
 
         <h5 class="mt-5">De ce sa alegi DeratDezin Vest?</h5>
-        Personalul calificat și experimentat precum și produsele și echipamentele de ultimă generație utilizate pentru dezinsecție, dezinfecție și  și ne ajută să prestăm câtre clienții noștri servicii DDD de calitate în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova și alte județe din țară, întotdeauna la termenul stabilit.
+        <p class="description">Personalul calificat și experimentat precum și produsele și echipamentele de ultimă generație utilizate pentru dezinsecție, dezinfecție și  și ne ajută să prestăm câtre clienții noștri servicii DDD de calitate în Timișoara, Lugoj, Făget, Sânnicolau Mare, Jimbolia, Recaș, Făget, Buziaș, Deta, Gătaia și Ciacova și alte județe din țară, întotdeauna la termenul stabilit.
        <br> <br>Punem la dispoziție serviciile noastre pentru o gamă largă de clienți din domeniul public sau privat, începând de la consumatorul casnic, până la spații comerciale și birouri, hale, restaurante, școli, cabinete medicale, unități alimentare, clinici și spitale sau alte tipuri de spații.
-        <br> <br>Cauți o firmă deratizare în Timișoara și județul Timiș? Ești în locul potrivit, DeratDezin te va scăpa de rozătoare, insect și viruși. Contactează-ne și venim rapid în sprijinul tău.
+          <br> <br>Cauți o firmă deratizare în Timișoara și județul Timiș? Ești în locul potrivit, DeratDezin te va scăpa de rozătoare, insect și viruși. Contactează-ne și venim rapid în sprijinul tău. </p>
 
+        <FAQ></FAQ>
 
       </div>
-    </div>
 
+    </div>
     <div class="section section-contact-us text-center">
       <div class="container">
         <h2 class="title">Dorești sa colaboram?</h2>
@@ -147,13 +128,14 @@
   </div>
 </template>
 <script>
-import { Button, FormGroupInput } from "@/components";
+import { Button, FormGroupInput, FAQ } from "@/components";
 export default {
   name: "landing",
   bodyClass: "landing-page",
   components: {
     [Button.name]: Button,
     [FormGroupInput.name]: FormGroupInput,
+    FAQ,
   },
   metaInfo: {
     title: 'Firmă Deratizare Timisoara – Servicii DDD Timisoara',

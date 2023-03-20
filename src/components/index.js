@@ -20,6 +20,7 @@ import Tabs from './Tabs/Tabs.vue';
 import Modal from './Modal.vue';
 import Parallax from './Parallax.vue';
 import Slider from './Slider.vue';
+import FAQ from './FAQ';
 
 import Pagination from './Pagination.vue';
 
@@ -40,6 +41,7 @@ export {
   NavbarToggleButton,
   NavLink,
   TabPane,
+  FAQ,
   Tabs,
   Modal,
   Parallax,
