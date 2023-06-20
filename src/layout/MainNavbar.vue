@@ -27,7 +27,6 @@
         icon="now-ui-icons ui-2_settings-90"
         class="nav-item"
       >
-        <nav-link to="/dezinfectie-covid-timisoara"> Dezinfectie Covid-19 </nav-link>
         <nav-link to="/dezinfectie-timisoara"> Dezinfectie generală </nav-link>
         <nav-link to="/deratizare-timisoara"> Deratizare </nav-link>
         <nav-link to="/dezinsectie-timisoara"> Dezinsectie </nav-link>
